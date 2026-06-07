@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NationalPark>
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Name>Grand Canyon South Rim</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Yellowstone</Name>
+    <Address>
+      <Number>1</Number>
+      <Street>North Entrance Road</Street>
+      <City>Gardiner</City>
+      <State>MT</State>
+      <Zip>59030</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Yosemite</Name>
+    <Phone>209-372-0200</Phone>
+    <Phone>209-372-0201</Phone>
+    <Address NearestAirport="Fresno">
+      <Number>1</Number>
+      <Street>Ahwahnee Drive</Street>
+      <City>Yosemite Valley</City>
+      <State>CA</State>
+      <Zip>95389</Zip>
+  </NationalPark>
+</NationalPark>
