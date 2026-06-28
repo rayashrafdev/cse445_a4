@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="https://rayashrafdev.github.io/cse445_a4"
+            targetNamespace="https://rayashrafdev.github.io/cse445_a4"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified">
 
   <!-- Root element: a directory of national parks -->
   <xsd:element name="NationalParks">
     <xsd:complexType>
       <xsd:sequence>
-        <!-- One or more NationalPark children, in document order -->
         <xsd:element name="NationalPark" minOccurs="1" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:sequence>
